@@ -1,0 +1,36 @@
+{
+  "name": "road-damage-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "5.80.7",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-router-dom": "7.18.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.5",
+    "@tailwindcss/vite": "4.3.5",
+    "@testing-library/jest-dom": "6.6.3",
+    "@testing-library/react": "16.3.0",
+    "@types/react": "19.1.6",
+    "@types/react-dom": "19.1.6",
+    "@vitejs/plugin-react": "6.2.1",
+    "eslint": "9.39.5",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "globals": "16.2.0",
+    "jsdom": "26.1.0",
+    "tailwindcss": "4.3.5",
+    "typescript": "5.8.3",
+    "typescript-eslint": "8.72.1",
+    "vite": "8.3.6",
+    "vitest": "4.1.12"
+  }
+}
