@@ -1,0 +1,11 @@
+downloads
+work
+.git
+*.zip
+**/build
+edge-runtime-smoke/models
+*.img
+*.img.xz
+*.ext4
+*.tar
+*.tar.gz

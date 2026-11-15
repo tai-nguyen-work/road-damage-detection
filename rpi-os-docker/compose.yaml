@@ -1,0 +1,11 @@
+services:
+  pi-os:
+    build: .
+    image: road-damage-rpi-os:trixie-arm64
+    platform: linux/arm64
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    stdin_open: true
+    tty: true
+    command: ["/bin/bash", "/workspace/app/verify.sh"]
